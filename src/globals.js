@@ -5,7 +5,7 @@ export default function () {
     // Public url
     publicUrl: process.env.BASE_URL,
 
-    apiUrl: 'http://backend-hacking-rio.azurewebsites.net/api/',
+    apiUrl: 'https://backend-atende-facil.azurewebsites.net/api/',
 
     // Layout helpers
     layoutHelpers,

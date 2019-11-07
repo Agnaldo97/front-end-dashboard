@@ -16,7 +16,7 @@ export default {
   name: 'app',
   metaInfo: {
     title: 'Index',
-    titleTemplate: '%s - Rede Dor Care'
+    titleTemplate: '%s - Atende Fácil'
   },
   updated () {
     // Remove loading state

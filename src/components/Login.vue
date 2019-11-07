@@ -6,14 +6,6 @@
     <div class="authentication-inner py-5">
       <b-card no-body class="login-box">
         <div class="p-4 p-sm-5">
-          <div class="d-flex justify-content-center align-items-center pb-2 mb-1">
-            <div>
-              <div class="w-100 position-relative">
-                <img src="https://www.rededorsaoluiz.com.br/assets/imgs/svg/logo-rededor-saoluiz.svg"/>
-              </div>
-            </div>
-          </div>
-
           <form>
             <b-form-group label="Usuário">
               <b-input v-model="credentials.email" />

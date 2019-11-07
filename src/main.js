@@ -27,7 +27,7 @@ new Vue({
   router,
   render: h => h(App),
   mounted () {
-    axios.defaults.baseURL = `https://backend-hacking-rio.azurewebsites.net/api/`
+    axios.defaults.baseURL = `https://backend-atende-facil.azurewebsites.net/api/`
     axios.interceptors.request.use(config => {
       const token = localStorage.getItem('access-token')
       if (token) {
